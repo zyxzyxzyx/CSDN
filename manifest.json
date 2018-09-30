@@ -1,0 +1,22 @@
+{  
+  "name": "CSDN点击页面",
+  "manifest_version":2,
+  "version": "4.0.1",  
+  "description": "CSDN点击页面",
+  "icons":{
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {  
+    "default_title": "interest",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://blog.csdn.net/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
