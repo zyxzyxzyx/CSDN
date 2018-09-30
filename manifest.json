@@ -1,8 +1,8 @@
 {  
-  "name": "CSDN点击页面",
+  "name": "CSDN页面优化",
   "manifest_version":2,
   "version": "4.0.1",  
-  "description": "CSDN点击页面",
+  "description": "CSDN页面优化",
   "icons":{
     "16": "icon16.png",
     "32": "icon32.png",
