@@ -1,5 +1,7 @@
 //阅读更多的模拟点击
-document.querySelector('#btn-readmore').click()
+if(exist('#btn-readmore')){
+    exist('#btn-readmore').click()
+}
 //登录叉号的模拟点击
 document.querySelector('body > div.pulllog-box > div > div > button.btn-close').click()
 
@@ -9,3 +11,12 @@ var ads2=document.querySelector('#asideFooter > div:nth-child(1)');
 
 ads1.style.display='none'
 ads2.style.display='none'
+
+function exist(css) {
+    if(document.querySelector(css)){
+        return document.querySelector(css)
+    }
+    else{
+        return false
+    }
+}
