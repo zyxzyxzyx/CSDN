@@ -1,4 +1,5 @@
 //阅读更多的模拟点击
+
 if(exist('#btn-readmore')){
     exist('#btn-readmore').click()
 }
@@ -12,6 +13,7 @@ var ads2=document.querySelector('#asideFooter > div:nth-child(1)');
 ads1.style.display='none'
 ads2.style.display='none'
 
+
 function exist(css) {
     if(document.querySelector(css)){
         return document.querySelector(css)
@@ -19,4 +21,10 @@ function exist(css) {
     else{
         return false
     }
+}
+
+document.body.onclick=moveRight
+
+function moveRight() {
+    document.documentElement.scrollLeft=370;
 }
