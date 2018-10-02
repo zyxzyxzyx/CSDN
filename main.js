@@ -23,7 +23,7 @@ function exist(css) {
     }
 }
 
-document.body.onclick=moveRight
+document.body.onclick=moveRight;
 
 function moveRight() {
     document.documentElement.scrollLeft=370;
