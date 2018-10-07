@@ -26,5 +26,5 @@ function exist(css) {
 document.body.onclick=moveRight;
 
 function moveRight() {
-    document.documentElement.scrollLeft=370;
+    document.documentElement.scrollLeft=390;
 }
