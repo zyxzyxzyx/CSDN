@@ -10,8 +10,8 @@ document.querySelector('body > div.pulllog-box > div > div > button.btn-close').
 // var ads2=document.querySelector('#asideFooter > div:nth-child(1)');
 var ads2=document.querySelector('#mainBox > aside');
 
-// ads1.style.display='none'
-ads2.style.display='none'
+// ads1.style.display="none";
+ads2.style.display="none";
 
 document.body.onclick=moveRight;
 
