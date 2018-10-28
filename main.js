@@ -29,4 +29,3 @@ function exist(css) {
 function moveRight() {
     document.documentElement.scrollLeft=390;
 }
-document.style.backgroundColor="lightblue";
