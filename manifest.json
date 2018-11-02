@@ -11,8 +11,8 @@
   },
   "browser_action": {  
     "default_icon": "./images/icon128.png",
-    "default_title": "interest",
-    "default_popup": "popup.html"
+    "default_title": "interest"
+//    "default_popup": "popup.html"
   },
   "content_scripts": [
     {

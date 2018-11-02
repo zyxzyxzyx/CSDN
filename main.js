@@ -30,9 +30,3 @@ function moveRight() {
     document.documentElement.scrollLeft=390;
 }
 
-(function(){
-    chrome.browserAction.setIcon({
-        "path":"./images/icon128.png"
-    })
-})();
-
