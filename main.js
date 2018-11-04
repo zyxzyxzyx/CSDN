@@ -24,7 +24,6 @@ function exist(css) {
         return false
     }
 }
-
 // 把底部滚动条挪到合适的位置
 function moveRight() {
     document.documentElement.scrollLeft=390;
