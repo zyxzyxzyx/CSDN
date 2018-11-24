@@ -1,8 +1,8 @@
 {  
   "name": "CSDN页面优化",
   "manifest_version":2,
-  "version": "4.2.1",  
-  "description": "自动显示博客全文，去掉底部登录长条和左侧广告",
+  "version": "4.3.1",  
+  "description": "自动显示博客全文，去掉底部登录长条和广告",
   "icons":{
     "128": "images/icon128.png"
   },
