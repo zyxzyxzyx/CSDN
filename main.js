@@ -16,7 +16,7 @@ var css=[css1,css2,css3];
 
 for(var i=0; i<3; i++){
 	if(exist(css[i])){
-    	exist(css[i]).style.display="none";
+		exist(css[i]).style.display="none";
 	}
 }
 
