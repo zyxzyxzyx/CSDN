@@ -11,10 +11,11 @@ if(exist(cancel)){
 // 各处广告的隐藏
 var css1='#mainBox > aside > div.csdn-tracking-statistics.mb8.box-shadow'; // 广告1
 var css2='#asideFooter > div:nth-child(1)'; // 广告2
-var css3='#_360_interactive' //抽奖元素
-var css=[css1,css2,css3];
+var css3='#_360_interactive'; //抽奖元素
+var css4='#dmp_ad_58'; //文末广告
+var css=[css1,css2,css3,css4];
 
-for(var i=0; i<3; i++){
+for(var i=0; i<css.length; i++){
 	if(exist(css[i])){
 		exist(css[i]).style.display="none";
 	}
